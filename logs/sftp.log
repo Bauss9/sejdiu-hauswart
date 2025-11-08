@@ -1,0 +1,510 @@
+Nov  8 01:00:17 10.71.56.0 tmp106939781-4919 Connection from 10.71.56.0 port 20830 on 82.165.88.169 port 22 rdomain ""
+Nov  8 01:00:17 10.71.56.0 tmp106939781-4919 Accepted password for tmp106939781-4919 from 10.71.56.0 port 20830 ssh2
+Nov  8 01:00:17 10.71.56.0 tmp106939781-4919 Starting session: subsystem 'sftp' for tmp106939781-4919 from 10.71.56.0 port 20830 id 0
+Nov  8 01:00:17 10.71.56.0 tmp106939781-4919 session opened for local user tmp106939781-4919 from [10.71.56.0]
+Nov  8 01:03:54 10.71.56.0 u106939781 Connection from 10.71.56.0 port 18028 on 82.165.88.169 port 22 rdomain ""
+Nov  8 01:03:54 10.71.56.0 u106939781 Failed publickey for u106939781 from 10.71.56.0 port 18028 ssh2: ED25519 SHA256:gYEQw3wClr3sSL4B/TBaF0564wCHsOpVUQ67G58GYZ0
+Nov  8 01:03:54 10.71.56.0 u106939781 Accepted password for u106939781 from 10.71.56.0 port 18028 ssh2
+Nov  8 01:03:55 10.71.56.0 u106939781 Starting session: subsystem 'sftp' for u106939781 from 10.71.56.0 port 18028 id 0
+Nov  8 01:03:55 10.71.56.0 u106939781 session opened for local user u106939781 from [10.71.56.0]
+Nov  8 01:05:17 10.71.56.0 tmp106939781-4919 session closed for local user tmp106939781-4919 from [10.71.56.0]
+Nov  8 01:05:17 10.71.56.0 tmp106939781-4919 Connection closed by 10.71.56.0 port 20830
+Nov  8 01:07:56 10.71.56.0 u106939781 Connection from 10.71.56.0 port 10282 on 82.165.88.169 port 22 rdomain ""
+Nov  8 01:07:56 10.71.56.0 u106939781 Failed publickey for u106939781 from 10.71.56.0 port 10282 ssh2: ED25519 SHA256:gYEQw3wClr3sSL4B/TBaF0564wCHsOpVUQ67G58GYZ0
+Nov  8 01:07:56 10.71.56.0 u106939781 Accepted password for u106939781 from 10.71.56.0 port 10282 ssh2
+Nov  8 01:07:56 10.71.56.0 u106939781 Connection from 10.71.56.0 port 20438 on 82.165.88.169 port 22 rdomain ""
+Nov  8 01:07:56 10.71.56.0 u106939781 Failed publickey for u106939781 from 10.71.56.0 port 20438 ssh2: ED25519 SHA256:gYEQw3wClr3sSL4B/TBaF0564wCHsOpVUQ67G58GYZ0
+Nov  8 01:07:56 10.71.56.0 u106939781 Accepted password for u106939781 from 10.71.56.0 port 20438 ssh2
+Nov  8 01:07:56 10.71.56.0 u106939781 Starting session: subsystem 'sftp' for u106939781 from 10.71.56.0 port 10282 id 0
+Nov  8 01:07:56 10.71.56.0 u106939781 session opened for local user u106939781 from [10.71.56.0]
+Nov  8 01:07:56 10.71.56.0 u106939781 Starting session: subsystem 'sftp' for u106939781 from 10.71.56.0 port 20438 id 0
+Nov  8 01:07:56 10.71.56.0 u106939781 session opened for local user u106939781 from [10.71.56.0]
+Nov  8 01:07:56 10.71.56.0 u106939781 open "/.htaccess" flags READ mode 0666
+Nov  8 01:07:56 10.71.56.0 u106939781 open "/about.html" flags READ mode 0666
+Nov  8 01:07:56 10.71.56.0 u106939781 close "/.htaccess" bytes read 309 written 0
+Nov  8 01:07:56 10.71.56.0 u106939781 [10.71.56.0|get|0|309|0|0|0|2f2e6874616363657373|]
+Nov  8 01:07:56 10.71.56.0 u106939781 close "/about.html" bytes read 43439 written 0
+Nov  8 01:07:56 10.71.56.0 u106939781 [10.71.56.0|get|0|43439|0|0|0|2f61626f75742e68746d6c|]
+Nov  8 01:07:56 10.71.56.0 u106939781 open "/blog-detail.html" flags READ mode 0666
+Nov  8 01:07:56 10.71.56.0 u106939781 open "/blog.html" flags READ mode 0666
+Nov  8 01:07:57 10.71.56.0 u106939781 close "/blog-detail.html" bytes read 38109 written 0
+Nov  8 01:07:57 10.71.56.0 u106939781 [10.71.56.0|get|1|38109|0|0|0|2f626c6f672d64657461696c2e68746d6c|]
+Nov  8 01:07:57 10.71.56.0 u106939781 close "/blog.html" bytes read 37997 written 0
+Nov  8 01:07:57 10.71.56.0 u106939781 [10.71.56.0|get|1|37997|0|0|0|2f626c6f672e68746d6c|]
+Nov  8 01:07:57 10.71.56.0 u106939781 open "/buchen.css" flags READ mode 0666
+Nov  8 01:07:57 10.71.56.0 u106939781 open "/buchen.js" flags READ mode 0666
+Nov  8 01:07:57 10.71.56.0 u106939781 close "/buchen.css" bytes read 0 written 0
+Nov  8 01:07:57 10.71.56.0 u106939781 [10.71.56.0|get|0|0|0|0|0|2f62756368656e2e637373|]
+Nov  8 01:07:57 10.71.56.0 u106939781 close "/buchen.js" bytes read 4843 written 0
+Nov  8 01:07:57 10.71.56.0 u106939781 [10.71.56.0|get|0|4843|0|0|0|2f62756368656e2e6a73|]
+Nov  8 01:07:57 10.71.56.0 u106939781 open "/buchen.php" flags READ mode 0666
+Nov  8 01:07:57 10.71.56.0 u106939781 open "/case-details.html" flags READ mode 0666
+Nov  8 01:07:57 10.71.56.0 u106939781 close "/buchen.php" bytes read 6517 written 0
+Nov  8 01:07:57 10.71.56.0 u106939781 [10.71.56.0|get|0|6517|0|0|0|2f62756368656e2e706870|]
+Nov  8 01:07:57 10.71.56.0 u106939781 close "/case-details.html" bytes read 25951 written 0
+Nov  8 01:07:57 10.71.56.0 u106939781 [10.71.56.0|get|0|25951|0|0|0|2f636173652d64657461696c732e68746d6c|]
+Nov  8 01:07:57 10.71.56.0 u106939781 open "/case-study.html" flags READ mode 0666
+Nov  8 01:07:57 10.71.56.0 u106939781 open "/contact.html" flags READ mode 0666
+Nov  8 01:07:57 10.71.56.0 u106939781 close "/case-study.html" bytes read 28841 written 0
+Nov  8 01:07:57 10.71.56.0 u106939781 [10.71.56.0|get|0|28841|0|0|0|2f636173652d73747564792e68746d6c|]
+Nov  8 01:07:57 10.71.56.0 u106939781 open "/faq.html" flags READ mode 0666
+Nov  8 01:07:57 10.71.56.0 u106939781 close "/contact.html" bytes read 25283 written 0
+Nov  8 01:07:57 10.71.56.0 u106939781 [10.71.56.0|get|0|25283|0|0|0|2f636f6e746163742e68746d6c|]
+Nov  8 01:07:57 10.71.56.0 u106939781 open "/galerie.html" flags READ mode 0666
+Nov  8 01:07:57 10.71.56.0 u106939781 close "/faq.html" bytes read 27737 written 0
+Nov  8 01:07:57 10.71.56.0 u106939781 [10.71.56.0|get|0|27737|0|0|0|2f6661712e68746d6c|]
+Nov  8 01:07:57 10.71.56.0 u106939781 close "/galerie.html" bytes read 0 written 0
+Nov  8 01:07:57 10.71.56.0 u106939781 [10.71.56.0|get|0|0|0|0|0|2f67616c657269652e68746d6c|]
+Nov  8 01:07:57 10.71.56.0 u106939781 open "/home-2.html" flags READ mode 0666
+Nov  8 01:07:57 10.71.56.0 u106939781 open "/index.css" flags READ mode 0666
+Nov  8 01:07:57 10.71.56.0 u106939781 close "/home-2.html" bytes read 77197 written 0
+Nov  8 01:07:57 10.71.56.0 u106939781 [10.71.56.0|get|0|77197|0|0|0|2f686f6d652d322e68746d6c|]
+Nov  8 01:07:57 10.71.56.0 u106939781 close "/index.css" bytes read 56869 written 0
+Nov  8 01:07:57 10.71.56.0 u106939781 [10.71.56.0|get|0|56869|0|0|0|2f696e6465782e637373|]
+Nov  8 01:07:57 10.71.56.0 u106939781 open "/index.html" flags READ mode 0666
+Nov  8 01:07:57 10.71.56.0 u106939781 open "/index.js" flags READ mode 0666
+Nov  8 01:07:57 10.71.56.0 u106939781 close "/index.html" bytes read 78600 written 0
+Nov  8 01:07:57 10.71.56.0 u106939781 [10.71.56.0|get|0|78600|0|0|0|2f696e6465782e68746d6c|]
+Nov  8 01:07:57 10.71.56.0 u106939781 close "/index.js" bytes read 6657 written 0
+Nov  8 01:07:57 10.71.56.0 u106939781 [10.71.56.0|get|0|6657|0|0|0|2f696e6465782e6a73|]
+Nov  8 01:07:57 10.71.56.0 u106939781 open "/kontakt.html" flags READ mode 0666
+Nov  8 01:07:57 10.71.56.0 u106939781 open "/kontakt.php" flags READ mode 0666
+Nov  8 01:07:57 10.71.56.0 u106939781 close "/kontakt.html" bytes read 7658 written 0
+Nov  8 01:07:57 10.71.56.0 u106939781 [10.71.56.0|get|0|7658|0|0|0|2f6b6f6e74616b742e68746d6c|]
+Nov  8 01:07:57 10.71.56.0 u106939781 close "/kontakt.php" bytes read 857 written 0
+Nov  8 01:07:57 10.71.56.0 u106939781 [10.71.56.0|get|0|857|0|0|0|2f6b6f6e74616b742e706870|]
+Nov  8 01:07:57 10.71.56.0 u106939781 open "/php.ini" flags READ mode 0666
+Nov  8 01:07:57 10.71.56.0 u106939781 open "/mail.log" flags READ mode 0666
+Nov  8 01:07:58 10.71.56.0 u106939781 close "/php.ini" bytes read 50 written 0
+Nov  8 01:07:58 10.71.56.0 u106939781 [10.71.56.0|get|1|50|0|0|0|2f7068702e696e69|]
+Nov  8 01:07:58 10.71.56.0 u106939781 open "/service-details.html" flags READ mode 0666
+Nov  8 01:07:58 10.71.56.0 u106939781 close "/service-details.html" bytes read 27277 written 0
+Nov  8 01:07:58 10.71.56.0 u106939781 [10.71.56.0|get|0|27277|0|0|0|2f736572766963652d64657461696c732e68746d6c|]
+Nov  8 01:07:58 10.71.56.0 u106939781 open "/services.html" flags READ mode 0666
+Nov  8 01:07:58 10.71.56.0 u106939781 close "/services.html" bytes read 28104 written 0
+Nov  8 01:07:58 10.71.56.0 u106939781 [10.71.56.0|get|0|28104|0|0|0|2f73657276696365732e68746d6c|]
+Nov  8 01:07:58 10.71.56.0 u106939781 open "/team.html" flags READ mode 0666
+Nov  8 01:07:58 10.71.56.0 u106939781 close "/mail.log" bytes read 4948062 written 0
+Nov  8 01:07:58 10.71.56.0 u106939781 [10.71.56.0|get|1|4948062|0|0|0|2f6d61696c2e6c6f67|]
+Nov  8 01:07:58 10.71.56.0 u106939781 close "/team.html" bytes read 28703 written 0
+Nov  8 01:07:58 10.71.56.0 u106939781 [10.71.56.0|get|0|28703|0|0|0|2f7465616d2e68746d6c|]
+Nov  8 01:07:58 10.71.56.0 u106939781 open "/zeiten.html" flags READ mode 0666
+Nov  8 01:07:58 10.71.56.0 u106939781 close "/zeiten.html" bytes read 6307 written 0
+Nov  8 01:07:58 10.71.56.0 u106939781 [10.71.56.0|get|0|6307|0|0|0|2f7a656974656e2e68746d6c|]
+Nov  8 01:07:58 10.71.56.0 u106939781 open "/fonts/fontawesome-webfont.eot" flags READ mode 0666
+Nov  8 01:07:58 10.71.56.0 u106939781 close "/fonts/fontawesome-webfont.eot" bytes read 165742 written 0
+Nov  8 01:07:58 10.71.56.0 u106939781 [10.71.56.0|get|0|165742|0|0|0|2f666f6e74732f666f6e74617765736f6d652d776562666f6e742e656f74|]
+Nov  8 01:07:58 10.71.56.0 u106939781 open "/fonts/fontawesome-webfont.ttf" flags READ mode 0666
+Nov  8 01:07:58 10.71.56.0 u106939781 open "/fonts/fontawesome-webfont.woff" flags READ mode 0666
+Nov  8 01:07:59 10.71.56.0 u106939781 close "/fonts/fontawesome-webfont.ttf" bytes read 165548 written 0
+Nov  8 01:07:59 10.71.56.0 u106939781 [10.71.56.0|get|0|165548|0|0|0|2f666f6e74732f666f6e74617765736f6d652d776562666f6e742e747466|]
+Nov  8 01:07:59 10.71.56.0 u106939781 close "/fonts/fontawesome-webfont.woff" bytes read 98024 written 0
+Nov  8 01:07:59 10.71.56.0 u106939781 [10.71.56.0|get|1|98024|0|0|0|2f666f6e74732f666f6e74617765736f6d652d776562666f6e742e776f6666|]
+Nov  8 01:07:59 10.71.56.0 u106939781 open "/fonts/icomoon.svg" flags READ mode 0666
+Nov  8 01:07:59 10.71.56.0 u106939781 open "/fonts/fontawesome-webfont.woff2" flags READ mode 0666
+Nov  8 01:07:59 10.71.56.0 u106939781 close "/fonts/icomoon.svg" bytes read 106961 written 0
+Nov  8 01:07:59 10.71.56.0 u106939781 [10.71.56.0|get|0|106961|0|0|0|2f666f6e74732f69636f6d6f6f6e2e737667|]
+Nov  8 01:07:59 10.71.56.0 u106939781 close "/fonts/fontawesome-webfont.woff2" bytes read 77160 written 0
+Nov  8 01:07:59 10.71.56.0 u106939781 [10.71.56.0|get|0|77160|0|0|0|2f666f6e74732f666f6e74617765736f6d652d776562666f6e742e776f666632|]
+Nov  8 01:07:59 10.71.56.0 u106939781 open "/fonts/icomoon.eot" flags READ mode 0666
+Nov  8 01:07:59 10.71.56.0 u106939781 open "/fonts/icomoon.woff" flags READ mode 0666
+Nov  8 01:07:59 10.71.56.0 u106939781 close "/fonts/icomoon.eot" bytes read 23332 written 0
+Nov  8 01:07:59 10.71.56.0 u106939781 [10.71.56.0|get|0|23332|0|0|0|2f666f6e74732f69636f6d6f6f6e2e656f74|]
+Nov  8 01:07:59 10.71.56.0 u106939781 close "/fonts/icomoon.woff" bytes read 23244 written 0
+Nov  8 01:07:59 10.71.56.0 u106939781 [10.71.56.0|get|0|23244|0|0|0|2f666f6e74732f69636f6d6f6f6e2e776f6666|]
+Nov  8 01:07:59 10.71.56.0 u106939781 open "/fonts/FontAwesome.otf" flags READ mode 0666
+Nov  8 01:07:59 10.71.56.0 u106939781 open "/fonts/fontawesome-webfont.svg" flags READ mode 0666
+Nov  8 01:07:59 10.71.56.0 u106939781 close "/fonts/FontAwesome.otf" bytes read 134808 written 0
+Nov  8 01:07:59 10.71.56.0 u106939781 [10.71.56.0|get|0|134808|0|0|0|2f666f6e74732f466f6e74417765736f6d652e6f7466|]
+Nov  8 01:07:59 10.71.56.0 u106939781 close "/fonts/fontawesome-webfont.svg" bytes read 447050 written 0
+Nov  8 01:07:59 10.71.56.0 u106939781 [10.71.56.0|get|0|447050|0|0|0|2f666f6e74732f666f6e74617765736f6d652d776562666f6e742e737667|]
+Nov  8 01:07:59 10.71.56.0 u106939781 open "/fonts/icomoon.ttf" flags READ mode 0666
+Nov  8 01:07:59 10.71.56.0 u106939781 open "/icon/logo-light.png" flags READ mode 0666
+Nov  8 01:07:59 10.71.56.0 u106939781 close "/fonts/icomoon.ttf" bytes read 23168 written 0
+Nov  8 01:07:59 10.71.56.0 u106939781 [10.71.56.0|get|0|23168|0|0|0|2f666f6e74732f69636f6d6f6f6e2e747466|]
+Nov  8 01:07:59 10.71.56.0 u106939781 close "/icon/logo-light.png" bytes read 8690 written 0
+Nov  8 01:07:59 10.71.56.0 u106939781 [10.71.56.0|get|0|8690|0|0|0|2f69636f6e2f6c6f676f2d6c696768742e706e67|]
+Nov  8 01:07:59 10.71.56.0 u106939781 open "/icon/logo-light@2x.png" flags READ mode 0666
+Nov  8 01:07:59 10.71.56.0 u106939781 open "/icon/Favicon.png" flags READ mode 0666
+Nov  8 01:07:59 10.71.56.0 u106939781 close "/icon/logo-light@2x.png" bytes read 9137 written 0
+Nov  8 01:07:59 10.71.56.0 u106939781 [10.71.56.0|get|0|9137|0|0|0|2f69636f6e2f6c6f676f2d6c696768744032782e706e67|]
+Nov  8 01:07:59 10.71.56.0 u106939781 close "/icon/Favicon.png" bytes read 5427 written 0
+Nov  8 01:07:59 10.71.56.0 u106939781 [10.71.56.0|get|0|5427|0|0|0|2f69636f6e2f46617669636f6e2e706e67|]
+Nov  8 01:07:59 10.71.56.0 u106939781 open "/icon/logo-dark.png" flags READ mode 0666
+Nov  8 01:07:59 10.71.56.0 u106939781 open "/icon/logo-dark@2x.png" flags READ mode 0666
+Nov  8 01:07:59 10.71.56.0 u106939781 close "/icon/logo-dark.png" bytes read 10959 written 0
+Nov  8 01:07:59 10.71.56.0 u106939781 [10.71.56.0|get|0|10959|0|0|0|2f69636f6e2f6c6f676f2d6461726b2e706e67|]
+Nov  8 01:07:59 10.71.56.0 u106939781 close "/icon/logo-dark@2x.png" bytes read 26435 written 0
+Nov  8 01:07:59 10.71.56.0 u106939781 [10.71.56.0|get|0|26435|0|0|0|2f69636f6e2f6c6f676f2d6461726b4032782e706e67|]
+Nov  8 01:07:59 10.71.56.0 u106939781 open "/images/.DS_Store" flags READ mode 0666
+Nov  8 01:07:59 10.71.56.0 u106939781 open "/images/imgheader.jpg" flags READ mode 0666
+Nov  8 01:08:00 10.71.56.0 u106939781 close "/images/.DS_Store" bytes read 8196 written 0
+Nov  8 01:08:00 10.71.56.0 u106939781 [10.71.56.0|get|1|8196|0|0|0|2f696d616765732f2e44535f53746f7265|]
+Nov  8 01:08:00 10.71.56.0 u106939781 close "/images/imgheader.jpg" bytes read 37784 written 0
+Nov  8 01:08:00 10.71.56.0 u106939781 [10.71.56.0|get|1|37784|0|0|0|2f696d616765732f696d676865616465722e6a7067|]
+Nov  8 01:08:00 10.71.56.0 u106939781 open "/images/home/person-cutthetree.jpg" flags READ mode 0666
+Nov  8 01:08:00 10.71.56.0 u106939781 open "/images/home/plants-pot-with-watering-can.jpg" flags READ mode 0666
+Nov  8 01:08:00 10.71.56.0 u106939781 close "/images/home/person-cutthetree.jpg" bytes read 282361 written 0
+Nov  8 01:08:00 10.71.56.0 u106939781 [10.71.56.0|get|0|282361|0|0|0|2f696d616765732f686f6d652f706572736f6e2d637574746865747265652e6a7067|]
+Nov  8 01:08:00 10.71.56.0 u106939781 close "/images/home/plants-pot-with-watering-can.jpg" bytes read 238170 written 0
+Nov  8 01:08:00 10.71.56.0 u106939781 [10.71.56.0|get|0|238170|0|0|0|2f696d616765732f686f6d652f706c616e74732d706f742d776974682d7761746572696e672d63616e2e6a7067|]
+Nov  8 01:08:00 10.71.56.0 u106939781 open "/images/home/woman-and-tree.jpg" flags READ mode 0666
+Nov  8 01:08:00 10.71.56.0 u106939781 open "/images/home/circle-about.png" flags READ mode 0666
+Nov  8 01:08:00 10.71.56.0 u106939781 close "/images/home/circle-about.png" bytes read 1161 written 0
+Nov  8 01:08:00 10.71.56.0 u106939781 [10.71.56.0|get|0|1161|0|0|0|2f696d616765732f686f6d652f636972636c652d61626f75742e706e67|]
+Nov  8 01:08:00 10.71.56.0 u106939781 close "/images/home/woman-and-tree.jpg" bytes read 260311 written 0
+Nov  8 01:08:00 10.71.56.0 u106939781 [10.71.56.0|get|0|260311|0|0|0|2f696d616765732f686f6d652f776f6d616e2d616e642d747265652e6a7067|]
+Nov  8 01:08:00 10.71.56.0 u106939781 open "/images/home/young-woman-with-their-garden-crops.png" flags READ mode 0666
+Nov  8 01:08:00 10.71.56.0 u106939781 open "/images/home/box-flowers-green-garden-background.jpg" flags READ mode 0666
+Nov  8 01:08:00 10.71.56.0 u106939781 close "/images/home/young-woman-with-their-garden-crops.png" bytes read 3057 written 0
+Nov  8 01:08:00 10.71.56.0 u106939781 [10.71.56.0|get|0|3057|0|0|0|2f696d616765732f686f6d652f796f756e672d776f6d616e2d776974682d74686569722d67617264656e2d63726f70732e706e67|]
+Nov  8 01:08:00 10.71.56.0 u106939781 close "/images/home/box-flowers-green-garden-background.jpg" bytes read 282361 written 0
+Nov  8 01:08:00 10.71.56.0 u106939781 [10.71.56.0|get|0|282361|0|0|0|2f696d616765732f686f6d652f626f782d666c6f776572732d677265656e2d67617264656e2d6261636b67726f756e642e6a7067|]
+Nov  8 01:08:00 10.71.56.0 u106939781 open "/images/home/box-flowers-green-garden-item2.png" flags READ mode 0666
+Nov  8 01:08:00 10.71.56.0 u106939781 open "/images/home/slidehome2.png" flags READ mode 0666
+Nov  8 01:08:00 10.71.56.0 u106939781 close "/images/home/box-flowers-green-garden-item2.png" bytes read 1274 written 0
+Nov  8 01:08:00 10.71.56.0 u106939781 [10.71.56.0|get|0|1274|0|0|0|2f696d616765732f686f6d652f626f782d666c6f776572732d677265656e2d67617264656e2d6974656d322e706e67|]
+Nov  8 01:08:00 10.71.56.0 u106939781 close "/images/home/slidehome2.png" bytes read 2445 written 0
+Nov  8 01:08:00 10.71.56.0 u106939781 [10.71.56.0|get|0|2445|0|0|0|2f696d616765732f686f6d652f736c696465686f6d65322e706e67|]
+Nov  8 01:08:00 10.71.56.0 u106939781 sent status No such file
+Nov  8 01:08:00 10.71.56.0 u106939781 open "/images/home/close-up-planting-flowers-pot.jpg" flags READ mode 0666
+Nov  8 01:08:00 10.71.56.0 u106939781 open "/images/home/imgheader.jpg" flags READ mode 0666
+Nov  8 01:08:00 10.71.56.0 u106939781 close "/images/home/close-up-planting-flowers-pot.jpg" bytes read 6761 written 0
+Nov  8 01:08:00 10.71.56.0 u106939781 [10.71.56.0|get|0|6761|0|0|0|2f696d616765732f686f6d652f636c6f73652d75702d706c616e74696e672d666c6f776572732d706f742e6a7067|]
+Nov  8 01:08:00 10.71.56.0 u106939781 close "/images/home/imgheader.jpg" bytes read 23251 written 0
+Nov  8 01:08:00 10.71.56.0 u106939781 [10.71.56.0|get|0|23251|0|0|0|2f696d616765732f686f6d652f696d676865616465722e6a7067|]
+Nov  8 01:08:00 10.71.56.0 u106939781 open "/images/home/box-flowers-green-garden.jpg" flags READ mode 0666
+Nov  8 01:08:01 10.71.56.0 u106939781 open "/images/home/the-girl-in-the-glasses.jpg" flags READ mode 0666
+Nov  8 01:08:01 10.71.56.0 u106939781 close "/images/home/box-flowers-green-garden.jpg" bytes read 1561 written 0
+Nov  8 01:08:01 10.71.56.0 u106939781 [10.71.56.0|get|1|1561|0|0|0|2f696d616765732f686f6d652f626f782d666c6f776572732d677265656e2d67617264656e2e6a7067|]
+Nov  8 01:08:01 10.71.56.0 u106939781 close "/images/home/the-girl-in-the-glasses.jpg" bytes read 16448 written 0
+Nov  8 01:08:01 10.71.56.0 u106939781 [10.71.56.0|get|0|16448|0|0|0|2f696d616765732f686f6d652f7468652d6769726c2d696e2d7468652d676c61737365732e6a7067|]
+Nov  8 01:08:01 10.71.56.0 u106939781 open "/images/testimonials/young-beautiful-florist-watering-flowers.jpg" flags READ mode 0666
+Nov  8 01:08:01 10.71.56.0 u106939781 open "/images/sejdiuteam/9f2f546e-b5ca-4765-96e9-4f9c381c2283.jpeg" flags READ mode 0666
+Nov  8 01:08:01 10.71.56.0 u106939781 close "/images/testimonials/young-beautiful-florist-watering-flowers.jpg" bytes read 5557 written 0
+Nov  8 01:08:01 10.71.56.0 u106939781 [10.71.56.0|get|0|5557|0|0|0|2f696d616765732f74657374696d6f6e69616c732f796f756e672d62656175746966756c2d666c6f726973742d7761746572696e672d666c6f776572732e6a7067|]
+Nov  8 01:08:01 10.71.56.0 u106939781 close "/images/sejdiuteam/9f2f546e-b5ca-4765-96e9-4f9c381c2283.jpeg" bytes read 464891 written 0
+Nov  8 01:08:01 10.71.56.0 u106939781 [10.71.56.0|get|0|464891|0|0|0|2f696d616765732f73656a6469757465616d2f39663266353436652d623563612d343736352d393665392d3466396333383163323238332e6a706567|]
+Nov  8 01:08:01 10.71.56.0 u106939781 open "/images/sejdiuteam/905cdb5a-4ef3-41ba-8780-6f972d544603.jpeg" flags READ mode 0666
+Nov  8 01:08:01 10.71.56.0 u106939781 open "/images/sejdiuteam/rsz_9f2f546e-b5ca-4765-96e9-4f9c381c2283.jpg" flags READ mode 0666
+Nov  8 01:08:01 10.71.56.0 u106939781 close "/images/sejdiuteam/905cdb5a-4ef3-41ba-8780-6f972d544603.jpeg" bytes read 402920 written 0
+Nov  8 01:08:01 10.71.56.0 u106939781 [10.71.56.0|get|0|402920|0|0|0|2f696d616765732f73656a6469757465616d2f39303563646235612d346566332d343162612d383738302d3666393732643534343630332e6a706567|]
+Nov  8 01:08:01 10.71.56.0 u106939781 close "/images/sejdiuteam/rsz_9f2f546e-b5ca-4765-96e9-4f9c381c2283.jpg" bytes read 220263 written 0
+Nov  8 01:08:01 10.71.56.0 u106939781 [10.71.56.0|get|0|220263|0|0|0|2f696d616765732f73656a6469757465616d2f72737a5f39663266353436652d623563612d343736352d393665392d3466396333383163323238332e6a7067|]
+Nov  8 01:08:01 10.71.56.0 u106939781 open "/images/sejdiuteam/70b8f750-36e4-48fc-a392-8f928d900f39.jpeg" flags READ mode 0666
+Nov  8 01:08:01 10.71.56.0 u106939781 open "/images/sejdiuteam/d2c4f633-1238-4875-9006-f6bf32531f53.jpeg" flags READ mode 0666
+Nov  8 01:08:01 10.71.56.0 u106939781 close "/images/sejdiuteam/d2c4f633-1238-4875-9006-f6bf32531f53.jpeg" bytes read 569063 written 0
+Nov  8 01:08:01 10.71.56.0 u106939781 [10.71.56.0|get|0|569063|0|0|0|2f696d616765732f73656a6469757465616d2f64326334663633332d313233382d343837352d393030362d6636626633323533316635332e6a706567|]
+Nov  8 01:08:01 10.71.56.0 u106939781 close "/images/sejdiuteam/70b8f750-36e4-48fc-a392-8f928d900f39.jpeg" bytes read 420550 written 0
+Nov  8 01:08:01 10.71.56.0 u106939781 [10.71.56.0|get|0|420550|0|0|0|2f696d616765732f73656a6469757465616d2f37306238663735302d333665342d343866632d613339322d3866393238643930306633392e6a706567|]
+Nov  8 01:08:01 10.71.56.0 u106939781 open "/images/shop/item4.png" flags READ mode 0666
+Nov  8 01:08:01 10.71.56.0 u106939781 open "/images/shop/item3.png" flags READ mode 0666
+Nov  8 01:08:02 10.71.56.0 u106939781 close "/images/shop/item4.png" bytes read 1479 written 0
+Nov  8 01:08:02 10.71.56.0 u106939781 [10.71.56.0|get|1|1479|0|0|0|2f696d616765732f73686f702f6974656d342e706e67|]
+Nov  8 01:08:02 10.71.56.0 u106939781 close "/images/shop/item3.png" bytes read 1479 written 0
+Nov  8 01:08:02 10.71.56.0 u106939781 [10.71.56.0|get|1|1479|0|0|0|2f696d616765732f73686f702f6974656d332e706e67|]
+Nov  8 01:08:02 10.71.56.0 u106939781 open "/images/shop/item2.png" flags READ mode 0666
+Nov  8 01:08:02 10.71.56.0 u106939781 open "/images/shop/item1.png" flags READ mode 0666
+Nov  8 01:08:02 10.71.56.0 u106939781 close "/images/shop/item2.png" bytes read 1479 written 0
+Nov  8 01:08:02 10.71.56.0 u106939781 [10.71.56.0|get|0|1479|0|0|0|2f696d616765732f73686f702f6974656d322e706e67|]
+Nov  8 01:08:02 10.71.56.0 u106939781 close "/images/shop/item1.png" bytes read 1479 written 0
+Nov  8 01:08:02 10.71.56.0 u106939781 [10.71.56.0|get|0|1479|0|0|0|2f696d616765732f73686f702f6974656d312e706e67|]
+Nov  8 01:08:02 10.71.56.0 u106939781 open "/images/blog/plants-pot-with-watering-can.jpg" flags READ mode 0666
+Nov  8 01:08:02 10.71.56.0 u106939781 open "/images/blog/planting-flowers-thumb.jpg" flags READ mode 0666
+Nov  8 01:08:02 10.71.56.0 u106939781 close "/images/blog/plants-pot-with-watering-can.jpg" bytes read 5258 written 0
+Nov  8 01:08:02 10.71.56.0 u106939781 [10.71.56.0|get|0|5258|0|0|0|2f696d616765732f626c6f672f706c616e74732d706f742d776974682d7761746572696e672d63616e2e6a7067|]
+Nov  8 01:08:02 10.71.56.0 u106939781 close "/images/blog/planting-flowers-thumb.jpg" bytes read 1179 written 0
+Nov  8 01:08:02 10.71.56.0 u106939781 [10.71.56.0|get|0|1179|0|0|0|2f696d616765732f626c6f672f706c616e74696e672d666c6f776572732d7468756d622e6a7067|]
+Nov  8 01:08:02 10.71.56.0 u106939781 open "/images/blog/young-workers-greenhouse-feed-flowers-concept-caring-plants.jpg" flags READ mode 0666
+Nov  8 01:08:02 10.71.56.0 u106939781 open "/images/blog/portrait-smiling-young-woman-holding-colorful-petunias-wooden-crate.jpg" flags READ mode 0666
+Nov  8 01:08:02 10.71.56.0 u106939781 close "/images/blog/young-workers-greenhouse-feed-flowers-concept-caring-plants.jpg" bytes read 5258 written 0
+Nov  8 01:08:02 10.71.56.0 u106939781 [10.71.56.0|get|0|5258|0|0|0|2f696d616765732f626c6f672f796f756e672d776f726b6572732d677265656e686f7573652d666565642d666c6f776572732d636f6e636570742d636172696e672d706c616e74732e6a7067|]
+Nov  8 01:08:02 10.71.56.0 u106939781 close "/images/blog/portrait-smiling-young-woman-holding-colorful-petunias-wooden-crate.jpg" bytes read 5258 written 0
+Nov  8 01:08:02 10.71.56.0 u106939781 [10.71.56.0|get|0|5258|0|0|0|2f696d616765732f626c6f672f706f7274726169742d736d696c696e672d796f756e672d776f6d616e2d686f6c64696e672d636f6c6f7266756c2d706574756e6961732d776f6f64656e2d63726174652e6a7067|]
+Nov  8 01:08:02 10.71.56.0 u106939781 open "/images/blog/working-in-garden.jpg" flags READ mode 0666
+Nov  8 01:08:02 10.71.56.0 u106939781 open "/images/blog/avt2.jpg" flags READ mode 0666
+Nov  8 01:08:02 10.71.56.0 u106939781 close "/images/blog/working-in-garden.jpg" bytes read 5161 written 0
+Nov  8 01:08:02 10.71.56.0 u106939781 [10.71.56.0|get|0|5161|0|0|0|2f696d616765732f626c6f672f776f726b696e672d696e2d67617264656e2e6a7067|]
+Nov  8 01:08:02 10.71.56.0 u106939781 close "/images/blog/avt2.jpg" bytes read 1238 written 0
+Nov  8 01:08:02 10.71.56.0 u106939781 [10.71.56.0|get|0|1238|0|0|0|2f696d616765732f626c6f672f617674322e6a7067|]
+Nov  8 01:08:02 10.71.56.0 u106939781 open "/images/blog/close-up-picture-hand-holding-wo.jpg" flags READ mode 0666
+Nov  8 01:08:02 10.71.56.0 u106939781 open "/images/blog/avt1.jpg" flags READ mode 0666
+Nov  8 01:08:02 10.71.56.0 u106939781 close "/images/blog/close-up-picture-hand-holding-wo.jpg" bytes read 1179 written 0
+Nov  8 01:08:02 10.71.56.0 u106939781 [10.71.56.0|get|0|1179|0|0|0|2f696d616765732f626c6f672f636c6f73652d75702d706963747572652d68616e642d686f6c64696e672d776f2e6a7067|]
+Nov  8 01:08:02 10.71.56.0 u106939781 close "/images/blog/avt1.jpg" bytes read 1238 written 0
+Nov  8 01:08:02 10.71.56.0 u106939781 [10.71.56.0|get|0|1238|0|0|0|2f696d616765732f626c6f672f617674312e6a7067|]
+Nov  8 01:08:02 10.71.56.0 u106939781 open "/images/blog/young-beautiful-florist-watering-flowers.jpg" flags READ mode 0666
+Nov  8 01:08:02 10.71.56.0 u106939781 open "/images/blog/young-woman-working-glass-greenhouse.jpg" flags READ mode 0666
+Nov  8 01:08:02 10.71.56.0 u106939781 close "/images/blog/young-beautiful-florist-watering-flowers.jpg" bytes read 2521 written 0
+Nov  8 01:08:02 10.71.56.0 u106939781 [10.71.56.0|get|0|2521|0|0|0|2f696d616765732f626c6f672f796f756e672d62656175746966756c2d666c6f726973742d7761746572696e672d666c6f776572732e6a7067|]
+Nov  8 01:08:02 10.71.56.0 u106939781 close "/images/blog/young-woman-working-glass-greenhouse.jpg" bytes read 5258 written 0
+Nov  8 01:08:02 10.71.56.0 u106939781 [10.71.56.0|get|0|5258|0|0|0|2f696d616765732f626c6f672f796f756e672d776f6d616e2d776f726b696e672d676c6173732d677265656e686f7573652e6a7067|]
+Nov  8 01:08:02 10.71.56.0 u106939781 open "/images/blog/close-up-picture-hand-holding-wooden-tray-which-full-pots-plants.jpg" flags READ mode 0666
+Nov  8 01:08:02 10.71.56.0 u106939781 open "/images/blog/planting-flowers-pots.jpg" flags READ mode 0666
+Nov  8 01:08:02 10.71.56.0 u106939781 close "/images/blog/close-up-picture-hand-holding-wooden-tray-which-full-pots-plants.jpg" bytes read 5258 written 0
+Nov  8 01:08:02 10.71.56.0 u106939781 [10.71.56.0|get|0|5258|0|0|0|2f696d616765732f626c6f672f636c6f73652d75702d706963747572652d68616e642d686f6c64696e672d776f6f64656e2d747261792d77686963682d66756c6c2d706f74732d706c616e74732e6a7067|]
+Nov  8 01:08:02 10.71.56.0 u106939781 close "/images/blog/planting-flowers-pots.jpg" bytes read 5258 written 0
+Nov  8 01:08:02 10.71.56.0 u106939781 [10.71.56.0|get|0|5258|0|0|0|2f696d616765732f626c6f672f706c616e74696e672d666c6f776572732d706f74732e6a7067|]
+Nov  8 01:08:02 10.71.56.0 u106939781 open "/images/blog/woman-plant-the-tree.jpg" flags READ mode 0666
+Nov  8 01:08:03 10.71.56.0 u106939781 close "/images/blog/woman-plant-the-tree.jpg" bytes read 4702 written 0
+Nov  8 01:08:03 10.71.56.0 u106939781 [10.71.56.0|get|1|4702|0|0|0|2f696d616765732f626c6f672f776f6d616e2d706c616e742d7468652d747265652e6a7067|]
+Nov  8 01:08:03 10.71.56.0 u106939781 open "/images/blog/medium-shot-woman-holding-plant-pot.jpg" flags READ mode 0666
+Nov  8 01:08:03 10.71.56.0 u106939781 close "/images/blog/medium-shot-woman-holding-plant-pot.jpg" bytes read 1179 written 0
+Nov  8 01:08:03 10.71.56.0 u106939781 [10.71.56.0|get|0|1179|0|0|0|2f696d616765732f626c6f672f6d656469756d2d73686f742d776f6d616e2d686f6c64696e672d706c616e742d706f742e6a7067|]
+Nov  8 01:08:03 10.71.56.0 u106939781 open "/images/profolio/home1-item4.jpg" flags READ mode 0666
+Nov  8 01:08:03 10.71.56.0 u106939781 close "/images/profolio/home1-item4.jpg" bytes read 3496 written 0
+Nov  8 01:08:03 10.71.56.0 u106939781 [10.71.56.0|get|0|3496|0|0|0|2f696d616765732f70726f666f6c696f2f686f6d65312d6974656d342e6a7067|]
+Nov  8 01:08:03 10.71.56.0 u106939781 open "/images/profolio/home1-item3.jpg" flags READ mode 0666
+Nov  8 01:08:03 10.71.56.0 u106939781 open "/images/profolio/home1-item2.jpg" flags READ mode 0666
+Nov  8 01:08:03 10.71.56.0 u106939781 close "/images/profolio/home1-item3.jpg" bytes read 3496 written 0
+Nov  8 01:08:03 10.71.56.0 u106939781 [10.71.56.0|get|0|3496|0|0|0|2f696d616765732f70726f666f6c696f2f686f6d65312d6974656d332e6a7067|]
+Nov  8 01:08:03 10.71.56.0 u106939781 open "/images/profolio/home1-item1.jpg" flags READ mode 0666
+Nov  8 01:08:03 10.71.56.0 u106939781 close "/images/profolio/home1-item2.jpg" bytes read 3496 written 0
+Nov  8 01:08:03 10.71.56.0 u106939781 [10.71.56.0|get|0|3496|0|0|0|2f696d616765732f70726f666f6c696f2f686f6d65312d6974656d322e6a7067|]
+Nov  8 01:08:03 10.71.56.0 u106939781 open "/images/profolio/profolio-image-1.jpg" flags READ mode 0666
+Nov  8 01:08:03 10.71.56.0 u106939781 close "/images/profolio/home1-item1.jpg" bytes read 3496 written 0
+Nov  8 01:08:03 10.71.56.0 u106939781 [10.71.56.0|get|0|3496|0|0|0|2f696d616765732f70726f666f6c696f2f686f6d65312d6974656d312e6a7067|]
+Nov  8 01:08:03 10.71.56.0 u106939781 open "/images/profolio/profolio-image-2.jpg" flags READ mode 0666
+Nov  8 01:08:03 10.71.56.0 u106939781 close "/images/profolio/profolio-image-1.jpg" bytes read 3487 written 0
+Nov  8 01:08:03 10.71.56.0 u106939781 [10.71.56.0|get|0|3487|0|0|0|2f696d616765732f70726f666f6c696f2f70726f666f6c696f2d696d6167652d312e6a7067|]
+Nov  8 01:08:03 10.71.56.0 u106939781 open "/images/profolio/profolio-image-3.jpg" flags READ mode 0666
+Nov  8 01:08:03 10.71.56.0 u106939781 close "/images/profolio/profolio-image-2.jpg" bytes read 3487 written 0
+Nov  8 01:08:03 10.71.56.0 u106939781 [10.71.56.0|get|0|3487|0|0|0|2f696d616765732f70726f666f6c696f2f70726f666f6c696f2d696d6167652d322e6a7067|]
+Nov  8 01:08:03 10.71.56.0 u106939781 close "/images/profolio/profolio-image-3.jpg" bytes read 6079 written 0
+Nov  8 01:08:03 10.71.56.0 u106939781 [10.71.56.0|get|0|6079|0|0|0|2f696d616765732f70726f666f6c696f2f70726f666f6c696f2d696d6167652d332e6a7067|]
+Nov  8 01:08:03 10.71.56.0 u106939781 open "/images/profolio/profolio-image-4.jpg" flags READ mode 0666
+Nov  8 01:08:03 10.71.56.0 u106939781 open "/images/profolio/profolio-image-5.jpg" flags READ mode 0666
+Nov  8 01:08:03 10.71.56.0 u106939781 close "/images/profolio/profolio-image-4.jpg" bytes read 3487 written 0
+Nov  8 01:08:03 10.71.56.0 u106939781 [10.71.56.0|get|0|3487|0|0|0|2f696d616765732f70726f666f6c696f2f70726f666f6c696f2d696d6167652d342e6a7067|]
+Nov  8 01:08:03 10.71.56.0 u106939781 close "/images/profolio/profolio-image-5.jpg" bytes read 3487 written 0
+Nov  8 01:08:03 10.71.56.0 u106939781 [10.71.56.0|get|0|3487|0|0|0|2f696d616765732f70726f666f6c696f2f70726f666f6c696f2d696d6167652d352e6a7067|]
+Nov  8 01:08:03 10.71.56.0 u106939781 open "/images/news/young-workers-greenhouse-feed-flowers-concept-caring-plants.jpg" flags READ mode 0666
+Nov  8 01:08:03 10.71.56.0 u106939781 open "/images/news/medium-shot-woman-online-meeting.jpg" flags READ mode 0666
+Nov  8 01:08:03 10.71.56.0 u106939781 close "/images/news/medium-shot-woman-online-meeting.jpg" bytes read 424771 written 0
+Nov  8 01:08:03 10.71.56.0 u106939781 [10.71.56.0|get|0|424771|0|0|0|2f696d616765732f6e6577732f6d656469756d2d73686f742d776f6d616e2d6f6e6c696e652d6d656574696e672e6a7067|]
+Nov  8 01:08:03 10.71.56.0 u106939781 close "/images/news/young-workers-greenhouse-feed-flowers-concept-caring-plants.jpg" bytes read 424771 written 0
+Nov  8 01:08:03 10.71.56.0 u106939781 [10.71.56.0|get|0|424771|0|0|0|2f696d616765732f6e6577732f796f756e672d776f726b6572732d677265656e686f7573652d666565642d666c6f776572732d636f6e636570742d636172696e672d706c616e74732e6a7067|]
+Nov  8 01:08:04 10.71.56.0 u106939781 open "/images/news/news-mark-leaf.png" flags READ mode 0666
+Nov  8 01:08:04 10.71.56.0 u106939781 close "/images/news/news-mark-leaf.png" bytes read 1870 written 0
+Nov  8 01:08:04 10.71.56.0 u106939781 [10.71.56.0|get|0|1870|0|0|0|2f696d616765732f6e6577732f6e6577732d6d61726b2d6c6561662e706e67|]
+Nov  8 01:08:04 10.71.56.0 u106939781 open "/images/team/staff2@2x.png" flags READ mode 0666
+Nov  8 01:08:04 10.71.56.0 u106939781 close "/images/team/staff2@2x.png" bytes read 2981 written 0
+Nov  8 01:08:04 10.71.56.0 u106939781 [10.71.56.0|get|0|2981|0|0|0|2f696d616765732f7465616d2f7374616666324032782e706e67|]
+Nov  8 01:08:04 10.71.56.0 u106939781 open "/images/team/staff-box1.jpg" flags READ mode 0666
+Nov  8 01:08:04 10.71.56.0 u106939781 open "/images/team/staff-box3.jpg" flags READ mode 0666
+Nov  8 01:08:04 10.71.56.0 u106939781 close "/images/team/staff-box1.jpg" bytes read 10519 written 0
+Nov  8 01:08:04 10.71.56.0 u106939781 [10.71.56.0|get|0|10519|0|0|0|2f696d616765732f7465616d2f73746166662d626f78312e6a7067|]
+Nov  8 01:08:04 10.71.56.0 u106939781 close "/images/team/staff-box3.jpg" bytes read 10519 written 0
+Nov  8 01:08:04 10.71.56.0 u106939781 [10.71.56.0|get|0|10519|0|0|0|2f696d616765732f7465616d2f73746166662d626f78332e6a7067|]
+Nov  8 01:08:04 10.71.56.0 u106939781 open "/images/team/staff-box2.jpg" flags READ mode 0666
+Nov  8 01:08:04 10.71.56.0 u106939781 open "/images/team/staff3.png" flags READ mode 0666
+Nov  8 01:08:04 10.71.56.0 u106939781 close "/images/team/staff-box2.jpg" bytes read 3548 written 0
+Nov  8 01:08:04 10.71.56.0 u106939781 [10.71.56.0|get|0|3548|0|0|0|2f696d616765732f7465616d2f73746166662d626f78322e6a7067|]
+Nov  8 01:08:04 10.71.56.0 u106939781 close "/images/team/staff3.png" bytes read 1624 written 0
+Nov  8 01:08:04 10.71.56.0 u106939781 [10.71.56.0|get|0|1624|0|0|0|2f696d616765732f7465616d2f7374616666332e706e67|]
+Nov  8 01:08:04 10.71.56.0 u106939781 open "/images/team/staff1.png" flags READ mode 0666
+Nov  8 01:08:04 10.71.56.0 u106939781 open "/images/team/staff2.png" flags READ mode 0666
+Nov  8 01:08:04 10.71.56.0 u106939781 close "/images/team/staff1.png" bytes read 1624 written 0
+Nov  8 01:08:04 10.71.56.0 u106939781 [10.71.56.0|get|0|1624|0|0|0|2f696d616765732f7465616d2f7374616666312e706e67|]
+Nov  8 01:08:04 10.71.56.0 u106939781 close "/images/team/staff2.png" bytes read 1624 written 0
+Nov  8 01:08:04 10.71.56.0 u106939781 [10.71.56.0|get|0|1624|0|0|0|2f696d616765732f7465616d2f7374616666322e706e67|]
+Nov  8 01:08:04 10.71.56.0 u106939781 open "/images/mask-back-ground/mask-team.png" flags READ mode 0666
+Nov  8 01:08:04 10.71.56.0 u106939781 open "/images/mask-back-ground/728d6f06-ad8b-4903-b094-c78760acce44.jpeg" flags READ mode 0666
+Nov  8 01:08:04 10.71.56.0 u106939781 close "/images/mask-back-ground/mask-team.png" bytes read 296291 written 0
+Nov  8 01:08:04 10.71.56.0 u106939781 [10.71.56.0|get|0|296291|0|0|0|2f696d616765732f6d61736b2d6261636b2d67726f756e642f6d61736b2d7465616d2e706e67|]
+Nov  8 01:08:04 10.71.56.0 u106939781 open "/images/mask-back-ground/Mask-testimonial-box.png" flags READ mode 0666
+Nov  8 01:08:04 10.71.56.0 u106939781 close "/images/mask-back-ground/Mask-testimonial-box.png" bytes read 3644 written 0
+Nov  8 01:08:04 10.71.56.0 u106939781 [10.71.56.0|get|0|3644|0|0|0|2f696d616765732f6d61736b2d6261636b2d67726f756e642f4d61736b2d74657374696d6f6e69616c2d626f782e706e67|]
+Nov  8 01:08:04 10.71.56.0 u106939781 close "/images/mask-back-ground/728d6f06-ad8b-4903-b094-c78760acce44.jpeg" bytes read 440838 written 0
+Nov  8 01:08:04 10.71.56.0 u106939781 [10.71.56.0|get|0|440838|0|0|0|2f696d616765732f6d61736b2d6261636b2d67726f756e642f37323864366630362d616438622d343930332d623039342d6337383736306163636534342e6a706567|]
+Nov  8 01:08:04 10.71.56.0 u106939781 open "/images/mask-back-ground/mask-services.png" flags READ mode 0666
+Nov  8 01:08:04 10.71.56.0 u106939781 open "/images/mask-back-ground/Leaf-WCU.png" flags READ mode 0666
+Nov  8 01:08:04 10.71.56.0 u106939781 close "/images/mask-back-ground/mask-services.png" bytes read 125201 written 0
+Nov  8 01:08:04 10.71.56.0 u106939781 [10.71.56.0|get|0|125201|0|0|0|2f696d616765732f6d61736b2d6261636b2d67726f756e642f6d61736b2d73657276696365732e706e67|]
+Nov  8 01:08:04 10.71.56.0 u106939781 close "/images/mask-back-ground/Leaf-WCU.png" bytes read 1800 written 0
+Nov  8 01:08:04 10.71.56.0 u106939781 [10.71.56.0|get|0|1800|0|0|0|2f696d616765732f6d61736b2d6261636b2d67726f756e642f4c6561662d5743552e706e67|]
+Nov  8 01:08:05 10.71.56.0 u106939781 open "/images/mask-back-ground/95fab9c5-1bf8-4883-ba6c-3711415314b7.jpeg" flags READ mode 0666
+Nov  8 01:08:05 10.71.56.0 u106939781 open "/images/mask-back-ground/mask-about2nd.png" flags READ mode 0666
+Nov  8 01:08:05 10.71.56.0 u106939781 close "/images/mask-back-ground/95fab9c5-1bf8-4883-ba6c-3711415314b7.jpeg" bytes read 272921 written 0
+Nov  8 01:08:05 10.71.56.0 u106939781 [10.71.56.0|get|0|272921|0|0|0|2f696d616765732f6d61736b2d6261636b2d67726f756e642f39356661623963352d316266382d343838332d626136632d3337313134313533313462372e6a706567|]
+Nov  8 01:08:05 10.71.56.0 u106939781 close "/images/mask-back-ground/mask-about2nd.png" bytes read 79844 written 0
+Nov  8 01:08:05 10.71.56.0 u106939781 [10.71.56.0|get|0|79844|0|0|0|2f696d616765732f6d61736b2d6261636b2d67726f756e642f6d61736b2d61626f7574326e642e706e67|]
+Nov  8 01:08:05 10.71.56.0 u106939781 open "/images/mask-back-ground/mark-box-services.png" flags READ mode 0666
+Nov  8 01:08:05 10.71.56.0 u106939781 open "/images/mask-back-ground/Group-contact.png" flags READ mode 0666
+Nov  8 01:08:05 10.71.56.0 u106939781 close "/images/mask-back-ground/mark-box-services.png" bytes read 1711 written 0
+Nov  8 01:08:05 10.71.56.0 u106939781 [10.71.56.0|get|0|1711|0|0|0|2f696d616765732f6d61736b2d6261636b2d67726f756e642f6d61726b2d626f782d73657276696365732e706e67|]
+Nov  8 01:08:05 10.71.56.0 u106939781 close "/images/mask-back-ground/Group-contact.png" bytes read 48275 written 0
+Nov  8 01:08:05 10.71.56.0 u106939781 [10.71.56.0|get|0|48275|0|0|0|2f696d616765732f6d61736b2d6261636b2d67726f756e642f47726f75702d636f6e746163742e706e67|]
+Nov  8 01:08:05 10.71.56.0 u106939781 open "/images/mask-back-ground/leaf-contact.png" flags READ mode 0666
+Nov  8 01:08:05 10.71.56.0 u106939781 open "/images/mask-back-ground/mark-leaf.png" flags READ mode 0666
+Nov  8 01:08:05 10.71.56.0 u106939781 close "/images/mask-back-ground/leaf-contact.png" bytes read 5221 written 0
+Nov  8 01:08:05 10.71.56.0 u106939781 [10.71.56.0|get|0|5221|0|0|0|2f696d616765732f6d61736b2d6261636b2d67726f756e642f6c6561662d636f6e746163742e706e67|]
+Nov  8 01:08:05 10.71.56.0 u106939781 close "/images/mask-back-ground/mark-leaf.png" bytes read 1872 written 0
+Nov  8 01:08:05 10.71.56.0 u106939781 [10.71.56.0|get|0|1872|0|0|0|2f696d616765732f6d61736b2d6261636b2d67726f756e642f6d61726b2d6c6561662e706e67|]
+Nov  8 01:08:05 10.71.56.0 u106939781 open "/images/mask-back-ground/mask-wp.png" flags READ mode 0666
+Nov  8 01:08:05 10.71.56.0 u106939781 open "/images/mask-back-ground/mark-leaf-testimonials.png" flags READ mode 0666
+Nov  8 01:08:05 10.71.56.0 u106939781 close "/images/mask-back-ground/mask-wp.png" bytes read 161453 written 0
+Nov  8 01:08:05 10.71.56.0 u106939781 [10.71.56.0|get|0|161453|0|0|0|2f696d616765732f6d61736b2d6261636b2d67726f756e642f6d61736b2d77702e706e67|]
+Nov  8 01:08:05 10.71.56.0 u106939781 close "/images/mask-back-ground/mark-leaf-testimonials.png" bytes read 1802 written 0
+Nov  8 01:08:05 10.71.56.0 u106939781 [10.71.56.0|get|0|1802|0|0|0|2f696d616765732f6d61736b2d6261636b2d67726f756e642f6d61726b2d6c6561662d74657374696d6f6e69616c732e706e67|]
+Nov  8 01:08:05 10.71.56.0 u106939781 open "/images/mask-back-ground/Mask-group-6.png" flags READ mode 0666
+Nov  8 01:08:05 10.71.56.0 u106939781 open "/images/Counter/the-man-working-tree.jpg" flags READ mode 0666
+Nov  8 01:08:05 10.71.56.0 u106939781 close "/images/mask-back-ground/Mask-group-6.png" bytes read 79998 written 0
+Nov  8 01:08:05 10.71.56.0 u106939781 [10.71.56.0|get|0|79998|0|0|0|2f696d616765732f6d61736b2d6261636b2d67726f756e642f4d61736b2d67726f75702d362e706e67|]
+Nov  8 01:08:05 10.71.56.0 u106939781 close "/images/Counter/the-man-working-tree.jpg" bytes read 6670 written 0
+Nov  8 01:08:05 10.71.56.0 u106939781 [10.71.56.0|get|0|6670|0|0|0|2f696d616765732f436f756e7465722f7468652d6d616e2d776f726b696e672d747265652e6a7067|]
+Nov  8 01:08:05 10.71.56.0 u106939781 open "/images/sejdiu/f276188b-dbde-49e8-8c68-57b542103f21.jpeg" flags READ mode 0666
+Nov  8 01:08:05 10.71.56.0 u106939781 open "/images/sejdiu/9a3d1139-abff-443b-be5a-410e96884315.jpeg" flags READ mode 0666
+Nov  8 01:08:05 10.71.56.0 u106939781 close "/images/sejdiu/f276188b-dbde-49e8-8c68-57b542103f21.jpeg" bytes read 381531 written 0
+Nov  8 01:08:05 10.71.56.0 u106939781 [10.71.56.0|get|0|381531|0|0|0|2f696d616765732f73656a6469752f66323736313838622d646264652d343965382d386336382d3537623534323130336632312e6a706567|]
+Nov  8 01:08:05 10.71.56.0 u106939781 close "/images/sejdiu/9a3d1139-abff-443b-be5a-410e96884315.jpeg" bytes read 1170786 written 0
+Nov  8 01:08:05 10.71.56.0 u106939781 [10.71.56.0|get|0|1170786|0|0|0|2f696d616765732f73656a6469752f39613364313133392d616266662d343433622d626535612d3431306539363838343331352e6a706567|]
+Nov  8 01:08:05 10.71.56.0 u106939781 open "/images/sejdiu/76ed6905-e758-45bb-98f9-3eeaa180b2b8.jpeg" flags READ mode 0666
+Nov  8 01:08:05 10.71.56.0 u106939781 open "/images/sejdiu/98757b5e-8cc7-4cc5-b004-762532db91e1.jpeg" flags READ mode 0666
+Nov  8 01:08:06 10.71.56.0 u106939781 close "/images/sejdiu/98757b5e-8cc7-4cc5-b004-762532db91e1.jpeg" bytes read 241618 written 0
+Nov  8 01:08:06 10.71.56.0 u106939781 [10.71.56.0|get|1|241618|0|0|0|2f696d616765732f73656a6469752f39383735376235652d386363372d346363352d623030342d3736323533326462393165312e6a706567|]
+Nov  8 01:08:06 10.71.56.0 u106939781 close "/images/sejdiu/76ed6905-e758-45bb-98f9-3eeaa180b2b8.jpeg" bytes read 629330 written 0
+Nov  8 01:08:06 10.71.56.0 u106939781 [10.71.56.0|get|1|629330|0|0|0|2f696d616765732f73656a6469752f37366564363930352d653735382d343562622d393866392d3365656161313830623262382e6a706567|]
+Nov  8 01:08:06 10.71.56.0 u106939781 open "/images/sejdiu/efa63d14-2b0d-42c7-b0dd-4cc38334659d.jpeg" flags READ mode 0666
+Nov  8 01:08:06 10.71.56.0 u106939781 open "/images/sejdiu/dff112e1-e4b6-4d22-9b52-d7483610c9fa.jpeg" flags READ mode 0666
+Nov  8 01:08:06 10.71.56.0 u106939781 close "/images/sejdiu/efa63d14-2b0d-42c7-b0dd-4cc38334659d.jpeg" bytes read 216680 written 0
+Nov  8 01:08:06 10.71.56.0 u106939781 [10.71.56.0|get|0|216680|0|0|0|2f696d616765732f73656a6469752f65666136336431342d326230642d343263372d623064642d3463633338333334363539642e6a706567|]
+Nov  8 01:08:06 10.71.56.0 u106939781 open "/images/sejdiu/43300b38-ef9f-470d-aa01-a40ac377ccf8.jpeg" flags READ mode 0666
+Nov  8 01:08:06 10.71.56.0 u106939781 close "/images/sejdiu/dff112e1-e4b6-4d22-9b52-d7483610c9fa.jpeg" bytes read 241618 written 0
+Nov  8 01:08:06 10.71.56.0 u106939781 [10.71.56.0|get|0|241618|0|0|0|2f696d616765732f73656a6469752f64666631313265312d653462362d346432322d396235322d6437343833363130633966612e6a706567|]
+Nov  8 01:08:06 10.71.56.0 u106939781 open "/images/sejdiu/7ff119dd-0b2f-4253-bab1-90b16057ecb0.jpeg" flags READ mode 0666
+Nov  8 01:08:06 10.71.56.0 u106939781 close "/images/sejdiu/43300b38-ef9f-470d-aa01-a40ac377ccf8.jpeg" bytes read 440838 written 0
+Nov  8 01:08:06 10.71.56.0 u106939781 [10.71.56.0|get|0|440838|0|0|0|2f696d616765732f73656a6469752f34333330306233382d656639662d343730642d616130312d6134306163333737636366382e6a706567|]
+Nov  8 01:08:06 10.71.56.0 u106939781 close "/images/sejdiu/7ff119dd-0b2f-4253-bab1-90b16057ecb0.jpeg" bytes read 272921 written 0
+Nov  8 01:08:06 10.71.56.0 u106939781 [10.71.56.0|get|0|272921|0|0|0|2f696d616765732f73656a6469752f37666631313964642d306232662d343235332d626162312d3930623136303537656362302e6a706567|]
+Nov  8 01:08:06 10.71.56.0 u106939781 open "/images/case-study/working-in-garden.jpg" flags READ mode 0666
+Nov  8 01:08:06 10.71.56.0 u106939781 close "/images/case-study/working-in-garden.jpg" bytes read 5161 written 0
+Nov  8 01:08:06 10.71.56.0 u106939781 [10.71.56.0|get|0|5161|0|0|0|2f696d616765732f636173652d73747564792f776f726b696e672d696e2d67617264656e2e6a7067|]
+Nov  8 01:08:06 10.71.56.0 u106939781 open "/images/case-study/the-woman-in-glasses-house.jpg" flags READ mode 0666
+Nov  8 01:08:06 10.71.56.0 u106939781 open "/images/case-study/close-up-picture-hand-holding-wooden-tray-which-full-pots-plants.jpg" flags READ mode 0666
+Nov  8 01:08:06 10.71.56.0 u106939781 close "/images/case-study/the-woman-in-glasses-house.jpg" bytes read 5161 written 0
+Nov  8 01:08:06 10.71.56.0 u106939781 [10.71.56.0|get|0|5161|0|0|0|2f696d616765732f636173652d73747564792f7468652d776f6d616e2d696e2d676c61737365732d686f7573652e6a7067|]
+Nov  8 01:08:06 10.71.56.0 u106939781 close "/images/case-study/close-up-picture-hand-holding-wooden-tray-which-full-pots-plants.jpg" bytes read 5161 written 0
+Nov  8 01:08:06 10.71.56.0 u106939781 [10.71.56.0|get|0|5161|0|0|0|2f696d616765732f636173652d73747564792f636c6f73652d75702d706963747572652d68616e642d686f6c64696e672d776f6f64656e2d747261792d77686963682d66756c6c2d706f74732d706c616e74732e6a7067|]
+Nov  8 01:08:06 10.71.56.0 u106939781 open "/images/case-study/plant-tree.jpg" flags READ mode 0666
+Nov  8 01:08:06 10.71.56.0 u106939781 open "/images/case-study/plant-tree2.jpg" flags READ mode 0666
+Nov  8 01:08:06 10.71.56.0 u106939781 close "/images/case-study/plant-tree.jpg" bytes read 5161 written 0
+Nov  8 01:08:06 10.71.56.0 u106939781 [10.71.56.0|get|0|5161|0|0|0|2f696d616765732f636173652d73747564792f706c616e742d747265652e6a7067|]
+Nov  8 01:08:06 10.71.56.0 u106939781 close "/images/case-study/plant-tree2.jpg" bytes read 5161 written 0
+Nov  8 01:08:06 10.71.56.0 u106939781 [10.71.56.0|get|0|5161|0|0|0|2f696d616765732f636173652d73747564792f706c616e742d74726565322e6a7067|]
+Nov  8 01:08:06 10.71.56.0 u106939781 open "/images/case-study/the-woman-plant-tree.jpg" flags READ mode 0666
+Nov  8 01:08:06 10.71.56.0 u106939781 close "/images/case-study/the-woman-plant-tree.jpg" bytes read 5161 written 0
+Nov  8 01:08:06 10.71.56.0 u106939781 [10.71.56.0|get|0|5161|0|0|0|2f696d616765732f636173652d73747564792f7468652d776f6d616e2d706c616e742d747265652e6a7067|]
+Nov  8 01:08:06 10.71.56.0 u106939781 open "/images/why-choose-us/artical-post-1.jpg" flags READ mode 0666
+Nov  8 01:08:06 10.71.56.0 u106939781 close "/images/why-choose-us/artical-post-1.jpg" bytes read 2169 written 0
+Nov  8 01:08:06 10.71.56.0 u106939781 [10.71.56.0|get|0|2169|0|0|0|2f696d616765732f7768792d63686f6f73652d75732f6172746963616c2d706f73742d312e6a7067|]
+Nov  8 01:08:07 10.71.56.0 u106939781 open "/images/why-choose-us/artical-post-3.jpg" flags READ mode 0666
+Nov  8 01:08:07 10.71.56.0 u106939781 open "/images/why-choose-us/artical-post-2.jpg" flags READ mode 0666
+Nov  8 01:08:07 10.71.56.0 u106939781 close "/images/why-choose-us/artical-post-3.jpg" bytes read 2169 written 0
+Nov  8 01:08:07 10.71.56.0 u106939781 [10.71.56.0|get|0|2169|0|0|0|2f696d616765732f7768792d63686f6f73652d75732f6172746963616c2d706f73742d332e6a7067|]
+Nov  8 01:08:07 10.71.56.0 u106939781 close "/images/why-choose-us/artical-post-2.jpg" bytes read 2169 written 0
+Nov  8 01:08:07 10.71.56.0 u106939781 [10.71.56.0|get|0|2169|0|0|0|2f696d616765732f7768792d63686f6f73652d75732f6172746963616c2d706f73742d322e6a7067|]
+Nov  8 01:08:07 10.71.56.0 u106939781 open "/images/services/portrait-smiling-young-woman-holding-colorful-petunias-wooden-crate.jpg" flags READ mode 0666
+Nov  8 01:08:07 10.71.56.0 u106939781 open "/images/services/portrait-woman-gardening.jpg" flags READ mode 0666
+Nov  8 01:08:07 10.71.56.0 u106939781 close "/images/services/portrait-smiling-young-woman-holding-colorful-petunias-wooden-crate.jpg" bytes read 4040 written 0
+Nov  8 01:08:07 10.71.56.0 u106939781 [10.71.56.0|get|0|4040|0|0|0|2f696d616765732f73657276696365732f706f7274726169742d736d696c696e672d796f756e672d776f6d616e2d686f6c64696e672d636f6c6f7266756c2d706574756e6961732d776f6f64656e2d63726174652e6a7067|]
+Nov  8 01:08:07 10.71.56.0 u106939781 close "/images/services/portrait-woman-gardening.jpg" bytes read 2166 written 0
+Nov  8 01:08:07 10.71.56.0 u106939781 [10.71.56.0|get|0|2166|0|0|0|2f696d616765732f73657276696365732f706f7274726169742d776f6d616e2d67617264656e696e672e6a7067|]
+Nov  8 01:08:07 10.71.56.0 u106939781 open "/images/services/medium-shot-woman-plant-pot.jpg" flags READ mode 0666
+Nov  8 01:08:07 10.71.56.0 u106939781 open "/images/services/close-up-planting-flowers-pot.jpg" flags READ mode 0666
+Nov  8 01:08:07 10.71.56.0 u106939781 close "/images/services/medium-shot-woman-plant-pot.jpg" bytes read 11365 written 0
+Nov  8 01:08:07 10.71.56.0 u106939781 [10.71.56.0|get|0|11365|0|0|0|2f696d616765732f73657276696365732f6d656469756d2d73686f742d776f6d616e2d706c616e742d706f742e6a7067|]
+Nov  8 01:08:07 10.71.56.0 u106939781 close "/images/services/close-up-planting-flowers-pot.jpg" bytes read 4040 written 0
+Nov  8 01:08:07 10.71.56.0 u106939781 [10.71.56.0|get|0|4040|0|0|0|2f696d616765732f73657276696365732f636c6f73652d75702d706c616e74696e672d666c6f776572732d706f742e6a7067|]
+Nov  8 01:08:07 10.71.56.0 u106939781 open "/images/services/box-flowers-green-garden.jpg" flags READ mode 0666
+Nov  8 01:08:07 10.71.56.0 u106939781 open "/images/services/smiley-colleagues-having-meeting-office.jpg" flags READ mode 0666
+Nov  8 01:08:07 10.71.56.0 u106939781 close "/images/services/box-flowers-green-garden.jpg" bytes read 2627 written 0
+Nov  8 01:08:07 10.71.56.0 u106939781 [10.71.56.0|get|0|2627|0|0|0|2f696d616765732f73657276696365732f626f782d666c6f776572732d677265656e2d67617264656e2e6a7067|]
+Nov  8 01:08:07 10.71.56.0 u106939781 close "/images/services/smiley-colleagues-having-meeting-office.jpg" bytes read 5695 written 0
+Nov  8 01:08:07 10.71.56.0 u106939781 [10.71.56.0|get|0|5695|0|0|0|2f696d616765732f73657276696365732f736d696c65792d636f6c6c6561677565732d686176696e672d6d656574696e672d6f66666963652e6a7067|]
+Nov  8 01:08:07 10.71.56.0 u106939781 open "/images/services/medium-shot-woman-holding-plant-pot.jpg" flags READ mode 0666
+Nov  8 01:08:07 10.71.56.0 u106939781 close "/images/services/medium-shot-woman-holding-plant-pot.jpg" bytes read 2627 written 0
+Nov  8 01:08:07 10.71.56.0 u106939781 [10.71.56.0|get|0|2627|0|0|0|2f696d616765732f73657276696365732f6d656469756d2d73686f742d776f6d616e2d686f6c64696e672d706c616e742d706f742e6a7067|]
+Nov  8 01:08:07 10.71.56.0 u106939781 open "/javascript/jquery.cookie.js" flags READ mode 0666
+Nov  8 01:08:07 10.71.56.0 u106939781 close "/javascript/jquery.cookie.js" bytes read 3238 written 0
+Nov  8 01:08:07 10.71.56.0 u106939781 [10.71.56.0|get|0|3238|0|0|0|2f6a6176617363726970742f6a71756572792e636f6f6b69652e6a73|]
+Nov  8 01:08:07 10.71.56.0 u106939781 open "/javascript/rev-slider.js" flags READ mode 0666
+Nov  8 01:08:07 10.71.56.0 u106939781 open "/javascript/countto.js" flags READ mode 0666
+Nov  8 01:08:07 10.71.56.0 u106939781 close "/javascript/rev-slider.js" bytes read 12704 written 0
+Nov  8 01:08:07 10.71.56.0 u106939781 [10.71.56.0|get|0|12704|0|0|0|2f6a6176617363726970742f7265762d736c696465722e6a73|]
+Nov  8 01:08:07 10.71.56.0 u106939781 close "/javascript/countto.js" bytes read 2581 written 0
+Nov  8 01:08:07 10.71.56.0 u106939781 [10.71.56.0|get|0|2581|0|0|0|2f6a6176617363726970742f636f756e74746f2e6a73|]
+Nov  8 01:08:07 10.71.56.0 u106939781 open "/javascript/jquery-validate.js" flags READ mode 0666
+Nov  8 01:08:07 10.71.56.0 u106939781 open "/javascript/bootstrap.min.js" flags READ mode 0666
+Nov  8 01:08:07 10.71.56.0 u106939781 close "/javascript/jquery-validate.js" bytes read 21069 written 0
+Nov  8 01:08:07 10.71.56.0 u106939781 [10.71.56.0|get|0|21069|0|0|0|2f6a6176617363726970742f6a71756572792d76616c69646174652e6a73|]
+Nov  8 01:08:07 10.71.56.0 u106939781 close "/javascript/bootstrap.min.js" bytes read 37051 written 0
+Nov  8 01:08:07 10.71.56.0 u106939781 [10.71.56.0|get|0|37051|0|0|0|2f6a6176617363726970742f626f6f7473747261702e6d696e2e6a73|]
+Nov  8 01:08:07 10.71.56.0 u106939781 open "/javascript/main.js" flags READ mode 0666
+Nov  8 01:08:07 10.71.56.0 u106939781 open "/javascript/gmap3.min.js" flags READ mode 0666
+Nov  8 01:08:07 10.71.56.0 u106939781 close "/javascript/main.js" bytes read 22262 written 0
+Nov  8 01:08:07 10.71.56.0 u106939781 [10.71.56.0|get|0|22262|0|0|0|2f6a6176617363726970742f6d61696e2e6a73|]
+Nov  8 01:08:08 10.71.56.0 u106939781 close "/javascript/gmap3.min.js" bytes read 25237 written 0
+Nov  8 01:08:08 10.71.56.0 u106939781 [10.71.56.0|get|1|25237|0|0|0|2f6a6176617363726970742f676d6170332e6d696e2e6a73|]
+Nov  8 01:08:08 10.71.56.0 u106939781 open "/javascript/jquery.min.js" flags READ mode 0666
+Nov  8 01:08:08 10.71.56.0 u106939781 open "/javascript/waypoints.min.js" flags READ mode 0666
+Nov  8 01:08:08 10.71.56.0 u106939781 close "/javascript/jquery.min.js" bytes read 97168 written 0
+Nov  8 01:08:08 10.71.56.0 u106939781 [10.71.56.0|get|0|97168|0|0|0|2f6a6176617363726970742f6a71756572792e6d696e2e6a73|]
+Nov  8 01:08:08 10.71.56.0 u106939781 close "/javascript/waypoints.min.js" bytes read 8051 written 0
+Nov  8 01:08:08 10.71.56.0 u106939781 [10.71.56.0|get|0|8051|0|0|0|2f6a6176617363726970742f776179706f696e74732e6d696e2e6a73|]
+Nov  8 01:08:08 10.71.56.0 u106939781 open "/javascript/owl.carousel.js" flags READ mode 0666
+Nov  8 01:08:08 10.71.56.0 u106939781 open "/javascript/wow.min.js" flags READ mode 0666
+Nov  8 01:08:08 10.71.56.0 u106939781 close "/javascript/owl.carousel.js" bytes read 82221 written 0
+Nov  8 01:08:08 10.71.56.0 u106939781 [10.71.56.0|get|0|82221|0|0|0|2f6a6176617363726970742f6f776c2e6361726f7573656c2e6a73|]
+Nov  8 01:08:08 10.71.56.0 u106939781 close "/javascript/wow.min.js" bytes read 8427 written 0
+Nov  8 01:08:08 10.71.56.0 u106939781 [10.71.56.0|get|0|8427|0|0|0|2f6a6176617363726970742f776f772e6d696e2e6a73|]
+Nov  8 01:08:08 10.71.56.0 u106939781 open "/javascript/jquery-waypoints.js" flags READ mode 0666
+Nov  8 01:08:08 10.71.56.0 u106939781 open "/javascript/jquery.easing.js" flags READ mode 0666
+Nov  8 01:08:08 10.71.56.0 u106939781 close "/javascript/jquery-waypoints.js" bytes read 8071 written 0
+Nov  8 01:08:08 10.71.56.0 u106939781 [10.71.56.0|get|0|8071|0|0|0|2f6a6176617363726970742f6a71756572792d776179706f696e74732e6a73|]
+Nov  8 01:08:08 10.71.56.0 u106939781 close "/javascript/jquery.easing.js" bytes read 4863 written 0
+Nov  8 01:08:08 10.71.56.0 u106939781 [10.71.56.0|get|0|4863|0|0|0|2f6a6176617363726970742f6a71756572792e656173696e672e6a73|]
+Nov  8 01:08:08 10.71.56.0 u106939781 open "/javascript/wow.js" flags READ mode 0666
+Nov  8 01:08:08 10.71.56.0 u106939781 close "/javascript/wow.js" bytes read 16060 written 0
+Nov  8 01:08:08 10.71.56.0 u106939781 [10.71.56.0|get|0|16060|0|0|0|2f6a6176617363726970742f776f772e6a73|]
+Nov  8 01:08:08 10.71.56.0 u106939781 open "/logs/access.log.45.6" flags READ mode 0666
+Nov  8 01:08:08 10.71.56.0 u106939781 close "/logs/access.log.45.6" bytes read 94019 written 0
+Nov  8 01:08:08 10.71.56.0 u106939781 [10.71.56.0|get|0|94019|0|0|0|2f6c6f67732f6163636573732e6c6f672e34352e36|]
+Nov  8 01:08:08 10.71.56.0 u106939781 open "/logs/access.log.42.gz" flags READ mode 0666
+Nov  8 01:08:08 10.71.56.0 u106939781 open "/logs/access.log.38.gz" flags READ mode 0666
+Nov  8 01:08:08 10.71.56.0 u106939781 close "/logs/access.log.42.gz" bytes read 44682 written 0
+Nov  8 01:08:08 10.71.56.0 u106939781 [10.71.56.0|get|0|44682|0|0|0|2f6c6f67732f6163636573732e6c6f672e34322e677a|]
+Nov  8 01:08:08 10.71.56.0 u106939781 close "/logs/access.log.38.gz" bytes read 44407 written 0
+Nov  8 01:08:08 10.71.56.0 u106939781 [10.71.56.0|get|0|44407|0|0|0|2f6c6f67732f6163636573732e6c6f672e33382e677a|]
+Nov  8 01:08:08 10.71.56.0 u106939781 open "/logs/access.log.43.gz" flags READ mode 0666
+Nov  8 01:08:08 10.71.56.0 u106939781 open "/logs/access.log.44.4.gz" flags READ mode 0666
+Nov  8 01:08:08 10.71.56.0 u106939781 close "/logs/access.log.43.gz" bytes read 40387 written 0
+Nov  8 01:08:08 10.71.56.0 u106939781 [10.71.56.0|get|0|40387|0|0|0|2f6c6f67732f6163636573732e6c6f672e34332e677a|]
+Nov  8 01:08:08 10.71.56.0 u106939781 close "/logs/access.log.44.4.gz" bytes read 4935 written 0
+Nov  8 01:08:08 10.71.56.0 u106939781 [10.71.56.0|get|0|4935|0|0|0|2f6c6f67732f6163636573732e6c6f672e34342e342e677a|]
+Nov  8 01:08:08 10.71.56.0 u106939781 open "/logs/access.log.40.gz" flags READ mode 0666
+Nov  8 01:08:08 10.71.56.0 u106939781 open "/logs/access.log.45.4.gz" flags READ mode 0666
+Nov  8 01:08:08 10.71.56.0 u106939781 close "/logs/access.log.45.4.gz" bytes read 5559 written 0
+Nov  8 01:08:08 10.71.56.0 u106939781 [10.71.56.0|get|0|5559|0|0|0|2f6c6f67732f6163636573732e6c6f672e34352e342e677a|]
+Nov  8 01:08:08 10.71.56.0 u106939781 close "/logs/access.log.40.gz" bytes read 40922 written 0
+Nov  8 01:08:08 10.71.56.0 u106939781 [10.71.56.0|get|0|40922|0|0|0|2f6c6f67732f6163636573732e6c6f672e34302e677a|]
+Nov  8 01:08:08 10.71.56.0 u106939781 open "/logs/access.log.45.2.gz" flags READ mode 0666
+Nov  8 01:08:08 10.71.56.0 u106939781 open "/logs/access.log.45.1.gz" flags READ mode 0666
+Nov  8 01:08:09 10.71.56.0 u106939781 close "/logs/access.log.45.2.gz" bytes read 7684 written 0
+Nov  8 01:08:09 10.71.56.0 u106939781 [10.71.56.0|get|1|7684|0|0|0|2f6c6f67732f6163636573732e6c6f672e34352e322e677a|]
+Nov  8 01:08:09 10.71.56.0 u106939781 close "/logs/access.log.45.1.gz" bytes read 7213 written 0
+Nov  8 01:08:09 10.71.56.0 u106939781 [10.71.56.0|get|1|7213|0|0|0|2f6c6f67732f6163636573732e6c6f672e34352e312e677a|]
+Nov  8 01:08:09 10.71.56.0 u106939781 open "/logs/access.log.37.gz" flags READ mode 0666
+Nov  8 01:08:09 10.71.56.0 u106939781 open "/logs/access.log.39.gz" flags READ mode 0666
+Nov  8 01:08:09 10.71.56.0 u106939781 close "/logs/access.log.37.gz" bytes read 74519 written 0
+Nov  8 01:08:09 10.71.56.0 u106939781 [10.71.56.0|get|0|74519|0|0|0|2f6c6f67732f6163636573732e6c6f672e33372e677a|]
+Nov  8 01:08:09 10.71.56.0 u106939781 close "/logs/access.log.39.gz" bytes read 56168 written 0
+Nov  8 01:08:09 10.71.56.0 u106939781 [10.71.56.0|get|0|56168|0|0|0|2f6c6f67732f6163636573732e6c6f672e33392e677a|]
+Nov  8 01:08:09 10.71.56.0 u106939781 open "/logs/access.log.44.7.gz" flags READ mode 0666
+Nov  8 01:08:09 10.71.56.0 u106939781 open "/logs/access.log.44.6.gz" flags READ mode 0666
+Nov  8 01:08:09 10.71.56.0 u106939781 close "/logs/access.log.44.7.gz" bytes read 5184 written 0
+Nov  8 01:08:09 10.71.56.0 u106939781 [10.71.56.0|get|0|5184|0|0|0|2f6c6f67732f6163636573732e6c6f672e34342e372e677a|]
+Nov  8 01:08:09 10.71.56.0 u106939781 close "/logs/access.log.44.6.gz" bytes read 5439 written 0
+Nov  8 01:08:09 10.71.56.0 u106939781 [10.71.56.0|get|0|5439|0|0|0|2f6c6f67732f6163636573732e6c6f672e34342e362e677a|]
+Nov  8 01:08:09 10.71.56.0 u106939781 open "/logs/access.log.41.gz" flags READ mode 0666
+Nov  8 01:08:09 10.71.56.0 u106939781 open "/logs/sftp.log" flags READ mode 0666
