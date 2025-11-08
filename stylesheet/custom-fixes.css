@@ -71,4 +71,31 @@ section[id] {
     section[id] {
         scroll-margin-top: 80px;
     }
+
+    /* Ensure phone number is visible on mobile */
+    .flat-contact .contact-address {
+        display: block !important;
+        position: relative !important;
+        left: auto !important;
+        bottom: auto !important;
+        margin-top: 30px;
+    }
+
+    .flat-contact .contact-address .address-box {
+        margin-bottom: 20px;
+    }
+}
+
+/* Mobile specific fixes */
+@media only screen and (max-width: 767px) {
+    /* Fix overflow issue cutting off phone number */
+    .flat-contact .info {
+        max-height: none !important;
+        overflow: visible !important;
+    }
+
+    /* Add margin to header on mobile */
+    #header {
+        margin-top: 25px !important;
+    }
 }

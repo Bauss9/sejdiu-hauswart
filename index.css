@@ -1104,6 +1104,8 @@ overflow-x: none; }
                 padding: 0px;
                 overflow-x: hidden; 
             }
+
+
             #bigcont2{
                 position: relative;
                 width: 100%;
@@ -1208,9 +1210,10 @@ overflow-x: none; }
             }
             #header{
                 position: relative;
-                top: 0;
+                top: 25px;
                 left: 0;
                 height: 35px;
+                margin-top: 25px;
                 width: 100%;
                 background-color: rgb(61, 61, 61);
             }  #headerinfo{
