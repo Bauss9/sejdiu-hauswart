@@ -68,6 +68,7 @@
     <link rel="stylesheet" href="stylesheet/responsive.css">
     <link rel="stylesheet" href="stylesheet/icomoon.css">
     <link rel="stylesheet" href="stylesheet/animate.css">
+    <link rel="stylesheet" href="stylesheet/custom-fixes.css">
     
     <!-- Additional Meta Tags -->
     <meta name="keywords" content="Entrümpelung Esslingen, Gartenarbeit Stuttgart, Haushaltsauflösung, Renovierung, Sanierung, Gartenpflege, Entrümpelungsdienst, Umzug">
@@ -100,15 +101,7 @@
                                             <span class="top-mail">info@sejdiu-hauswart.com</span>
                                         </div>
                                         <div class="top-bar-right">
-                                            <ul class="widgets-nav-social">
-                                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                                </li>
-                                                <li><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
-                                                </li>
-                                                </li>
-                                                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                                                </li>
-                                            </ul>
+                                            <!-- Social media links removed -->
                                         </div>
                                     </div>
                                 </div>
@@ -140,23 +133,20 @@
                                             <div class="nav-wrap">
                                                 <nav id="mainnav" class="mainnav">
                                                     <ul class="menu">
-                                                        <li class="current-menu-item menu-item-has-children">
-                                                            <a  title="">Home</a>
-                                                            <!-- /.sub-menu -->
-                                                        </li>
-                                                        <li class="menu-item-has-children">
-                                                            <a  title="">Über uns</a>
-                                                            <!-- /.sub-menu -->
-                                                        </li>
-                                                        <li >
-                                                            <a title="">Leistung</a>
-    
+                                                        <li class="current-menu-item">
+                                                            <a href="#home" title="Home">Home</a>
                                                         </li>
                                                         <li>
-                                                            <a  title="">Rezensionen</a>
+                                                            <a href="#about" title="Über uns">Über uns</a>
                                                         </li>
                                                         <li>
-                                                            <a title="">Kontakt</a>
+                                                            <a href="#services" title="Leistungen">Leistungen</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#testimonials" title="Rezensionen">Rezensionen</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#contact" title="Kontakt">Kontakt</a>
                                                         </li>
                                                     </ul>
                                                 </nav>
@@ -165,28 +155,8 @@
                                         <div class="col-md-3">
                                             <div class="site-header-right">
                                                 <div class="header-inner">
-                                                    <div class="search flat-show-search">
-                                                        <div class="show-search">
-                                                            <a href="#"><i class="fa fa-search"></i></a>
-                                                        </div>
-                                                        <div class="top-search widgets-input">
-                                                            <form action="get" id="searchform-all"
-                                                                class="header-search search-form">
-                                                                <div class="input-group">
-                                                                    <input type="search" id="s"
-                                                                        class="search-field"
-                                                                        placeholder="Search here" aria-label="Search" />
-                                                                        <button class="search-submit" type="submit" title="Search"></button>
-                                                                </div>
-                                                            </form>
-                                                        </div>
-                                                    </div>
-                                                    <div class="cart">
-                                                        <a href="#" class="cart-btn"><i
-                                                                class="fa fa-shopping-cart"></i></a>
-                                                    </div>
                                                     <div class="button">
-                                                        <a href="#" class="btn">Beauftragen</a>
+                                                        <a href="#contact" class="btn">Beauftragen</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -201,7 +171,7 @@
             </div>
         </div>
         <!-- page title -->
-        <div class="page-title-home1">
+        <div id="home" class="page-title-home1">
             <div class="container-fluid">
                 <div class="row">
                     <div class="inner-title-home1">
@@ -264,10 +234,10 @@
                                                 data-responsive_offset="on">
                                                 <div class="button-box">
                                                     <div class="button res-btn-slider">
-                                                        <a href="#" class="btn btn-left">Jetzt Beratung sichern!</a>
+                                                        <a href="#contact" class="btn btn-left">Jetzt Beratung sichern!</a>
                                                     </div>
                                                     <div class="button">
-                                                        <a href="#" class="btn">Mehr erfahren</a>
+                                                        <a href="#about" class="btn">Mehr erfahren</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -343,10 +313,10 @@
                                                 data-responsive_offset="on">
                                                 <div class="button-box">
                                                     <div class="button res-btn-slider">
-                                                        <a href="#" class="btn btn-left">Jetzt Beratung sichern!</a>
+                                                        <a href="#contact" class="btn btn-left">Jetzt Beratung sichern!</a>
                                                     </div>
                                                     <div class="button">
-                                                        <a href="#" class="btn">Mehr erfahren</a>
+                                                        <a href="#about" class="btn">Mehr erfahren</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -464,7 +434,7 @@
         <!-- /features -->
 
         <!-- about -->
-        <section class="flat-about">
+        <section id="about" class="flat-about">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -530,7 +500,7 @@
                                 </div>
                             </div>
                             <div class="button hover-up" style="margin-top: 150px">
-                                <a href="#" class="btn2">Kostenloses Angebot einholen</a>
+                                <a href="#contact" class="btn2">Kostenloses Angebot einholen</a>
                             </div>
                         </div>
                     </div>
@@ -541,7 +511,7 @@
         <!-- /about -->
 
         <!-- Our services -->
-        <section class="flat-services">
+        <section id="services" class="flat-services">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12" style="margin-bottom: 50px">
@@ -657,14 +627,8 @@
                             <div class="team-box wow fadeInUp">
                                 <div class="image-staff">
                                     <div class="backround-overlay"></div>
-                                    <div class="list-icon-hidden">
-                                        <ul class="widgets-nav-social link-style3">
-                                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <img src="images/team/staff1.png" alt="images">
+                                    <!-- Social media links removed -->
+                                    <img src="images/nexhmedin.jpeg" alt="images">
                                 </div>
                                 <div class="info-staff link-style4">
                                     <h3 class="section-heading-rubik-size20"> Nexhmedin Sejdiu </h3>
@@ -676,14 +640,8 @@
                             <div class="team-box wow fadeInUp">
                                 <div class="image-staff">
                                     <div class="backround-overlay"></div>
-                                    <div class="list-icon-hidden">
-                                        <ul class="widgets-nav-social link-style3">
-                                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <img src="images/team/staff2.png" alt="images">
+                                    <!-- Social media links removed -->
+                                    <img src="images/fitim.jpeg" alt="images">
                                 </div>
                                 <div class="info-staff link-style4">
                                     <h3 class="section-heading-rubik-size20">Fitim Sejdiu</h3>
@@ -695,14 +653,8 @@
                             <div class="team-box wow fadeInUp">
                                 <div class="image-staff">
                                     <div class="backround-overlay"></div>
-                                    <div class="list-icon-hidden">
-                                        <ul class="widgets-nav-social link-style3">
-                                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <img src="images/team/staff3.png" alt="images">
+                                    <!-- Social media links removed -->
+                                    <img src="images/qendrim.jpeg" alt="images">
                                 </div>
                                 <div class="info-staff link-style4">
                                     <h3 class="section-heading-rubik-size20"> Qendrim Sejdiu</h3>
@@ -759,7 +711,7 @@
         <!-- /our profolio -->
 
         <!-- Testimonials -->
-        <section class="flat-testimonials">
+        <section id="testimonials" class="flat-testimonials">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -1012,7 +964,7 @@
         <!-- /Work process -->
 
      <!-- Contact -->
-<section class="flat-contact">
+<section id="contact" class="flat-contact">
     <div class="container">
         <div class="row">
             <div class="col-md-4 wow fadeInUp">
@@ -1142,11 +1094,7 @@
                                     <p class="text-decs">
                                         Professionelle Dienstleistungen für Ihr Zuhause und Ihren Garten in Esslingen und Umgebung.
                                     </p>
-                                    <ul class="widgets-nav-social">
-                                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                    </ul>
+                                    <!-- Social media links removed -->
                                 </div>
                             </div>
                             <div class="footer-item">

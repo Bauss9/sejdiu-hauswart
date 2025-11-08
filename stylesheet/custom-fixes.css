@@ -1,0 +1,74 @@
+/* Custom fixes for Sejdiu Dienstleistungen website */
+
+/* Fix circular image in about section */
+.flat-about .about-post.center.bd-radius-50-image .main-post-about {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 50%;
+    max-width: 500px;
+}
+
+/* Ensure container doesn't distort */
+.flat-about .about-post.center.bd-radius-50-image {
+    position: relative;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 991px) {
+    .flat-about .about-post.center.bd-radius-50-image .main-post-about {
+        max-width: 350px;
+    }
+
+    .flat-about .about-post.center.bd-radius-50-image {
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 767px) {
+    .flat-about .about-post.center.bd-radius-50-image .main-post-about {
+        max-width: 280px;
+    }
+
+    .flat-about .about-post.center.bd-radius-50-image {
+        max-width: 280px;
+    }
+}
+
+/* Smooth scrolling for anchor links */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Adjust scroll offset for fixed header */
+section[id] {
+    scroll-margin-top: 120px;
+}
+
+/* Hide unused header elements */
+.search.flat-show-search,
+.cart {
+    display: none !important;
+}
+
+/* Better spacing for header button */
+.site-header-right .header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/* Hide top header bar on mobile and tablet */
+@media (max-width: 991px) {
+    .top-header1 {
+        display: none !important;
+    }
+
+    /* Adjust scroll offset for mobile without top bar */
+    section[id] {
+        scroll-margin-top: 80px;
+    }
+}
